@@ -12,3 +12,38 @@ body {
     font-size: 1.5rem;
     background: rgba(0,0,0,0.5);
     }
+
+
+
+  /* Footer styles */
+footer {
+  background-color: #343a40; /* Dark background color for footer */
+  color: #ffffff; /* White text color */
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icon {
+  margin: 0 10px; /* Space between icons */
+  display: inline-block;
+}
+
+.social-icon img {
+  width: 40px; /* Size of icons */
+  height: 40px; /* Size of icons */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.social-icon:hover img {
+  transform: scale(1.1); /* Slightly larger on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .social-icon img {
+      width: 30px; /* Smaller size for mobile */
+      height: 30px; /* Smaller size for mobile */
+  }
+}
